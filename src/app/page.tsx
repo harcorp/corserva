@@ -12,9 +12,11 @@ import { StepTwo } from "@/app/components/step-two/step-two";
 import { StepThree } from "@/app/components/step-three/step-three";
 import { StepFour } from "@/app/components/step-four/step-four";
 import { CurrentStepContext } from "@/app/context/currentStepProvider";
+import { Success } from "@/app/components/success/success";
 
 const Home = (): React.JSX.Element => {
   const [currentTab, setCurrentTab] = useState("step-1");
+  const [isSuccess, setIsSuccess] = useState(false);
   const initialValues: MultiStepForm = {
     name: "",
     phone: "",
@@ -61,12 +63,12 @@ const Home = (): React.JSX.Element => {
                   setCurrentTab("step-4");
                 }
               } else {
-                console.log("values", values);
+                setIsSuccess(true);
               }
             }}
             validationSchema={getValidationSchema(currentTab)}
           >
-            {CurrentStep}
+            {!isSuccess ? CurrentStep : <Success />}
           </Formik>
         </CurrentStepContext.Provider>
       </BaseLayout>

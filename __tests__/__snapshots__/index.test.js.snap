@@ -1,0 +1,198 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders homepage unchanged 1`] = `
+<div>
+  <main
+    class="main"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="containerItems"
+        >
+          <div
+            class="container selected"
+          >
+            <div
+              class="number"
+            >
+              1
+            </div>
+            <div>
+              <div
+                class="stepNumber"
+              >
+                STEP 
+                1
+              </div>
+              <div
+                class="title"
+              >
+                YOUR INFO
+              </div>
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="number"
+            >
+              2
+            </div>
+            <div>
+              <div
+                class="stepNumber"
+              >
+                STEP 
+                2
+              </div>
+              <div
+                class="title"
+              >
+                SELECT PLAN
+              </div>
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="number"
+            >
+              3
+            </div>
+            <div>
+              <div
+                class="stepNumber"
+              >
+                STEP 
+                3
+              </div>
+              <div
+                class="title"
+              >
+                ADD-ONS
+              </div>
+            </div>
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="number"
+            >
+              4
+            </div>
+            <div>
+              <div
+                class="stepNumber"
+              >
+                STEP 
+                4
+              </div>
+              <div
+                class="title"
+              >
+                SUMMARY
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container"
+      >
+        <div
+          class="title"
+        >
+          Personal info
+        </div>
+        <div
+          class="subtitle"
+        >
+          Please provide your name, email address, and phone number.
+        </div>
+        <div
+          class="formContainer"
+        >
+          <div
+            class="container"
+          >
+            <div
+              class="top"
+            >
+              <div
+                class="label"
+              >
+                Name
+              </div>
+            </div>
+            <input
+              class="input"
+              id="name"
+              name="name"
+              placeholder="e.g. Stephen King"
+              value=""
+            />
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="top"
+            >
+              <div
+                class="label"
+              >
+                Email Address
+              </div>
+            </div>
+            <input
+              class="input"
+              id="email"
+              name="email"
+              placeholder="e.g. stephenking@lorem.com"
+              value=""
+            />
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="top"
+            >
+              <div
+                class="label"
+              >
+                Phone Number
+              </div>
+            </div>
+            <input
+              class="input"
+              id="phone"
+              name="phone"
+              placeholder="e.g. +1 234 567 890"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          class="buttons"
+        >
+          <div />
+          <div
+            class="container containerFilled"
+          >
+            Next Step
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+`;
