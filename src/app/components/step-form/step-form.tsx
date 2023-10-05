@@ -28,7 +28,11 @@ export function StepForm({
         )}
         <div />
         {next && (
-          <AppButton onClick={next} title={isLast ? "Confirm" : "Next Step"} />
+          <AppButton
+            color={isLast ? "secondary" : "primary"}
+            onClick={next}
+            title={isLast ? "Confirm" : "Next Step"}
+          />
         )}
       </div>
     </div>

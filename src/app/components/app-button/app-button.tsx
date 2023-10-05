@@ -5,10 +5,12 @@ export function AppButton({
   title,
   variant = "filled",
   onClick,
+  color = "primary",
 }: {
   title: string;
   variant?: "filled" | "clear";
   onClick?: () => void;
+  color?: "primary" | "secondary";
 }) {
   return (
     <div
@@ -16,6 +18,8 @@ export function AppButton({
       className={cx(styles.container, {
         [styles.containerClear]: variant === "clear",
         [styles.containerFilled]: variant === "filled",
+        [styles.primary]: variant === "filled" && color === "primary",
+        [styles.secondary]: variant === "filled" && color === "secondary",
       })}
     >
       {title}
