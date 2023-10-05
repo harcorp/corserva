@@ -1,0 +1,61 @@
+.container {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.label {
+    color: var(--Denim, #022959);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body (M) */
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.input {
+    border-radius: 8px;
+    border: 1px solid var(--Border-Color, #D6D9E6);
+    background: var(--White, #FFF);
+    height: 48px;
+    padding: 0 16px;
+    margin-top: 8px;
+    color: var(--Denim, #022959);
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.input::placeholder {
+    color: var(--Grey, #9699AA);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 156.25% */
+}
+
+.input:focus {
+    border: 1px solid var(--Purple, #483EFF);
+    background: var(--White, #FFF);
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.error {
+    color: var(--Red-Errors, #EE374A);
+    text-align: right;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

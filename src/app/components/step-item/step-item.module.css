@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+}
+
+.number {
+    width: 33px;
+    height: 33px;
+    border: 1px var(--White, #FFF) solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 33px;
+    margin-right: 16px;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+
+.container.selected .number {
+    color: var(--Denim, #022959);
+    background-color: var(--Sky-Blue, #BEE2FD);
+    border: 1px var(--Sky-Blue, #BEE2FD) solid;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.stepNumber {
+    color: var(--Light-Blue, #ABBCFF);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title {
+    color: var(--White, #FFF);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}

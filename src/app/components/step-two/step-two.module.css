@@ -1,0 +1,37 @@
+.itemsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.frequencyContainer {
+    border-radius: 8px;
+    background: var(--Very-Light-Grey, #F8F9FF);
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0;
+}
+.frequencyLabel {
+    color: var(--Grey, #9699AA);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 16px;
+}
+.frequencyLabel.selected {
+    color: var(--Denim, #022959);
+    text-align: right;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}

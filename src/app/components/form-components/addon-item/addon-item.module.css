@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    border-radius: 8px;
+    border: 1px solid var(--Border-Color, #D6D9E6);
+    background: var(--White, #FFF);
+    flex-direction: row;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    margin-bottom: 16px;
+}
+
+.container.selected {
+    border: 1px solid var(--Purple, #483EFF);
+    background: var(--Very-Light-Grey, #F8F9FF);
+}
+
+.titles {
+    flex: 2;
+    padding-left: 24px;
+}
+
+.title {
+    color: var(--Denim, #022959);
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.subtitle {
+    color: var(--Grey, #9699AA);
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}
+
+.price {
+    color: var(--Purple, #483EFF);
+    text-align: right;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+}

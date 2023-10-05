@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 138px;
+    height: 160px;
+    border-radius: 8px;
+    border: 1px solid var(--Border-Color, #D6D9E6);
+    background: var(--White, #FFF);
+    cursor: pointer;
+}
+
+.container.selected {
+    border: 1px solid var(--Purple, #483EFF);
+    background: var(--Very-Light-Grey, #F8F9FF);
+}
+
+.iconContainer {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 16px;
+    margin-top: 20px;
+    margin-bottom: 39px;
+}
+
+.icon {
+    color: var(--White);
+}
+
+.orange {
+    background-color: #FFAF7E;
+}
+
+.pink {
+    background-color: #F9818E;
+}
+
+.purple {
+    background-color: #483EFF;
+}
+
+.title {
+    color: var(--Denim, #022959);
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 16px;
+}
+
+.subtitle {
+    padding-left: 16px;
+    color: var(--Grey, #9699AA);
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Body (M) */
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

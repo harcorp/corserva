@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 25px;
+    cursor: pointer;
+}
+.containerFilled {
+    border-radius: 8px;
+    background: var(--Denim, #022959);
+    color: var(--White, #FFF);
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.containerClear {
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--Grey);
+    transition: all ease-in .2s;
+}
+
+.containerClear:hover {
+    color: var(--Denim, #022959);
+}

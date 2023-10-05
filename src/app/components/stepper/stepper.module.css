@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% - 32px);
+    background: #483EFF url("../../assets/bottom-stepper.png") no-repeat bottom;
+    width: 274px;
+    margin: 16px;
+    border-radius: 10px;
+}
+
+.containerItems {
+    padding-top: 40px;
+    padding-left: 32px;
+}
